@@ -1,0 +1,98 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0; /* Remove default margin */
+  }
+  
+.color{
+  color: #DFF6FB;
+}
+  .symposium-logo {
+    width: 150px; /* Adjust size as needed */
+    margin-top: 10px; /* Space above the logo */
+  }
+  
+  .agenda {
+    margin-top: 20px;
+  }
+  
+  .vision {
+    margin-top: 40px; /* Space before Our Vision section */
+    padding: 20px; /* Add padding inside the box */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }
+  
+  .vision-content {
+    display: flex;
+    justify-content: center; /* Center align items */
+    align-items: flex-start; /* Align items at the top */
+    margin-top: 20px;
+  }
+  
+  .vision-logo {
+    width: 120px; /* Adjust size for the vision logo */
+    margin-right: 20px; /* Space between logo and text */
+  }
+  
+  .vision-text {
+    max-width: 600px; /* Limit text width for better readability */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .vision-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .vision-table th,
+  .vision-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* Align text to the left in table */
+  }
+  
+  .vision-table th {
+    background-color: #333; /* Dark background for header */
+    color: white; /* White text for header */
+  }
+  
+  .vision-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+  }
+  
+  .vision-table tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+  }
+  
+  /* Default styles for the class */
+.responsive-image {
+  max-width: 100px; /* Set maximum width */
+  max-height: 100px; /* Set maximum height */
+  width: 100%; /* Ensure it takes full width up to max */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center the container */
+  overflow: hidden; /* Hide overflow if necessary */
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .responsive-container {
+    max-width: 50px; /* Set max width to full width */
+    max-height: 500px; /* Adjust max height for smaller screens */
+  }
+
+  .title{
+    font-size: 22px;
+  }
+}

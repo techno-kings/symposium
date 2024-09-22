@@ -1,0 +1,21 @@
+.app {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Send the video behind other elements */
+  /* opacity: 0.6; Adjust opacity as needed */
+  /* rotate: 270deg; */
+}
+
+header, footer {
+  position: relative; /* Ensure header and footer stay above the video */
+  z-index: 1; /* Higher z-index than the video */
+}

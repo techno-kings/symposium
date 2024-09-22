@@ -1,0 +1,37 @@
+.gradient-background {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  color: #ffffff; /* White text */
+  backdrop-filter: blur(10px); /* Apply a blur effect for the glass look */
+}
+
+.link-color {
+  color: #f0f0f1 !important;
+}
+
+/* Style for the hamburger menu */
+.navbar-toggler {
+  border: none; /* Remove border */
+}
+
+.navbar-toggler-icon {
+  background-color: transparent; /* Make background transparent */
+  mix-blend-mode: color-burn;
+
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon span {
+  background-color: #f0f0f1; /* Change lines to white */
+}
+
+/* Style for the offcanvas */
+.offcanvas.show  {
+  background: linear-gradient(135deg, #002147, #004B87); 
+}
+
+/* Style for the close button */
+.offcanvas-header .btn-close {
+  color: white; /* Change close button color to white */
+}
+
