@@ -8,7 +8,7 @@ import './App.css'; // Make sure to import the CSS file
 
 function App() {
   return (
-    <Router>
+    <Router basename='/symposium'>
       <div className="app">
         <video  className="background-video" autoPlay loop muted poster="/bgimg.png">
           <source src="/bgvideo.mp4" type="video/mp4" />
@@ -19,7 +19,7 @@ function App() {
         <Header /> {/* Header stays visible */}
         
         <Routes>
-          <Route path="/" element={<HomePage />} /> {/* Home page */}
+          <Route path="/" exact element={<HomePage />} /> {/* Home page */}
           <Route path="/events" element={<EventPage />} /> {/* Event page */}
         </Routes>
 
