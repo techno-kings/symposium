@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/symposium/static/css/main.fd02d681.css",
+    "main.js": "/symposium/static/js/main.2f142181.js",
+    "static/js/453.e2e4d1f7.chunk.js": "/symposium/static/js/453.e2e4d1f7.chunk.js",
+    "static/media/circuit.jpg": "/symposium/static/media/circuit.3e9ec5ad8a1883f543bd.jpg",
+    "static/media/techquiz.jpg": "/symposium/static/media/techquiz.c9e9ff56312c2f380024.jpg",
+    "static/media/minute.jpg": "/symposium/static/media/minute.d387e0b317cbad57c335.jpg",
+    "static/media/robo.jpg": "/symposium/static/media/robo.12ab81d608fae6aed6bf.jpg",
+    "static/media/school.jpg": "/symposium/static/media/school.b95f0665bae47b0c3272.jpg",
+    "static/media/detective.jpg": "/symposium/static/media/detective.743e42f1f8351e04239c.jpg",
+    "static/media/linefollower.jpg": "/symposium/static/media/linefollower.6c2129be736d9aaee061.jpg",
+    "static/media/cricket.jpg": "/symposium/static/media/cricket.2beaa8cdbf6d6c083982.jpg",
+    "static/media/event-image.jpg": "/symposium/static/media/event-image.7531f72178b686c7e944.jpg",
+    "static/media/paperpresentation.jpg": "/symposium/static/media/paperpresentation.eba1bfa120c71762c597.jpg",
+    "static/media/project.jpg": "/symposium/static/media/project.2b27431442d070de1793.jpg",
+    "index.html": "/symposium/index.html",
+    "main.fd02d681.css.map": "/symposium/static/css/main.fd02d681.css.map",
+    "main.2f142181.js.map": "/symposium/static/js/main.2f142181.js.map",
+    "453.e2e4d1f7.chunk.js.map": "/symposium/static/js/453.e2e4d1f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd02d681.css",
+    "static/js/main.2f142181.js"
+  ]
+}
