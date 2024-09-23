@@ -3,7 +3,10 @@
   color: #ffffff; /* White text */
   backdrop-filter: blur(10px); /* Apply a blur effect for the glass look */
 }
-
+.navtab{
+  margin-left: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
 .link-color {
   color: #f0f0f1 !important;
 }

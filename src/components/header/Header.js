@@ -10,7 +10,7 @@ function Header() {
       {[ 'lg'].map((expand) => (
         <Navbar key={expand} expand={expand}  className="gradient-background mb-3">
           <Container >
-            <Navbar.Brand href="/"><img src='/logo.png' className='img-responsive' style={{maxHeight:50, maxWidth:50}} alt="Techno icon"/></Navbar.Brand>
+            <Navbar.Brand href="/"><img src='/logo.png' className='img-responsive' style={{maxHeight:50, maxWidth:50}} alt="Techno icon"/><strong className='navtab'>TECHNOKINGS</strong></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

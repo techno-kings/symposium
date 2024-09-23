@@ -10,7 +10,7 @@ const Footer = () => {
             <Container>
                 <Row className="w-100 text-center">
                     <Col md={12} className="mb-2">
-                        <h4>Kings Engineering College, Sriperumbudur, Tamil Nadu</h4>
+                        <h6><a href='https://maps.app.goo.gl/Hdfpxv436pMbEZWM9'>Kings Engineering College, Sriperumbudur, Tamil Nadu</a></h6>
                     </Col>
                     <Col md={12} className="mb-2">
                         <h4>Reach out to us</h4>

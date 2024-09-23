@@ -22,7 +22,9 @@
   .agenda {
     margin-top: 20px;
   }
-  
+  .color {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
   .vision {
     margin-top: 40px; /* Space before Our Vision section */
     padding: 20px; /* Add padding inside the box */
@@ -47,7 +49,9 @@
     max-width: 600px; /* Limit text width for better readability */
     text-align: left; /* Align text to the left */
   }
-  
+  .title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
   .vision-table {
     width: 100%;
     border-collapse: collapse;
@@ -73,6 +77,46 @@
   .vision-table tr:hover {
     background-color: #ddd; /* Highlight row on hover */
   }
+  .description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px;
+    margin-bottom: auto;
+    margin-left: 50px;
+  }
+  .dis-logo {
+    
+    border: none;
+    border-radius: 20px;
+    margin: 10px 30px;
+    flex: 1;
+    
+}
+.di-logo {
+  width: 300px;
+  height: 300px;
+}
+.dis-content {
+  width: 100%;
+  max-width: 600px;
+  font-size: 18px;
+  flex: 2;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.vision {
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  color: #ffffff; /* White text */
+  backdrop-filter: blur(10px); /* Apply a blur effect for the glass look */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+  border-radius: 8px; /* Optional rounded corners */
+  position: relative; /* Create a positioning context */
+  overflow: hidden; /* Ensure no overflow issues */
+
+}
   
   /* Default styles for the class */
 .responsive-image {
@@ -95,4 +139,13 @@
   .title{
     font-size: 22px;
   }
+  /* .dis-logo {
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    margin: 40px;
+    flex: 1;
+    width: 150px;
+    height: 150px;
+} */
 }

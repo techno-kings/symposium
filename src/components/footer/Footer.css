@@ -7,6 +7,7 @@
   border-radius: 8px; /* Optional rounded corners */
   position: relative; /* Create a positioning context */
   overflow: hidden; /* Ensure no overflow issues */
+  margin-top: 600px;
 }
 
 
