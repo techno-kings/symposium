@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/symposium/static/css/main.fd02d681.css",
-    "main.js": "/symposium/static/js/main.2f142181.js",
+    "main.js": "/symposium/static/js/main.e42d9b29.js",
     "static/js/453.e2e4d1f7.chunk.js": "/symposium/static/js/453.e2e4d1f7.chunk.js",
     "static/media/circuit.jpg": "/symposium/static/media/circuit.3e9ec5ad8a1883f543bd.jpg",
     "static/media/techquiz.jpg": "/symposium/static/media/techquiz.c9e9ff56312c2f380024.jpg",
@@ -16,11 +16,11 @@
     "static/media/project.jpg": "/symposium/static/media/project.2b27431442d070de1793.jpg",
     "index.html": "/symposium/index.html",
     "main.fd02d681.css.map": "/symposium/static/css/main.fd02d681.css.map",
-    "main.2f142181.js.map": "/symposium/static/js/main.2f142181.js.map",
+    "main.e42d9b29.js.map": "/symposium/static/js/main.e42d9b29.js.map",
     "453.e2e4d1f7.chunk.js.map": "/symposium/static/js/453.e2e4d1f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd02d681.css",
-    "static/js/main.2f142181.js"
+    "static/js/main.e42d9b29.js"
   ]
 }
